@@ -20,7 +20,7 @@ using namespace Windows::Foundation::Collections;
 
 StringReference PasteErrorString(L"NoOp");
 
-static const wstring c_validBasicCharacterSet = L"0123456789+-.e";
+static const wstring c_validBasicCharacterSet = L"0123456789+-.e:÷•x×";
 static const wstring c_validStandardCharacterSet = c_validBasicCharacterSet + L"*/";
 static const wstring c_validScientificCharacterSet = c_validStandardCharacterSet + L"()^%";
 static const wstring c_validProgrammerCharacterSet = c_validStandardCharacterSet + L"()%abcdfABCDEF";
